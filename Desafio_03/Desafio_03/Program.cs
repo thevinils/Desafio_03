@@ -43,8 +43,8 @@ namespace Desafio_03
                 Console.WriteLine("Qual a idade do {0}?", nome);
                 int idade = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("Qual a nota do {0}?", nome);
-                double nota = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Qual a nota do {0}? (utilizar ',' para separar os decimais)", nome);
+                double nota = Double.Parse(Console.ReadLine());
 
                 alunos[i] = new Aluno(nome, idade, nota);
             }
