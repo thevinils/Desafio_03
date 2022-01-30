@@ -52,7 +52,12 @@ namespace Desafio_03
 
             notalunos2.Add(Console.ReadLine());
 
+
+           
+            
             Console.WriteLine("O aluno:..." + nomealunos[0] + "...Obteve a nota..." + notalunos2[0]);
+           
+            
 
 
             
@@ -102,11 +107,25 @@ namespace Desafio_03
 
             Console.WriteLine();
 
-            Console.WriteLine("Aperte enter para mostrar o aluno com a maior nota");
+            Console.WriteLine("Aperte enter para mostrar os alunos incluídos");
 
 
             Console.ReadLine();
 
+            ///// FOREACH
+
+
+            foreach (string nome in nomealunos)
+            {
+                Console.WriteLine(nome);
+
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("Aperte enter para mostrar o aluno com a maior nota");
+
+            Console.ReadLine();
 
             //////// MAIOR NOTA
 
@@ -123,6 +142,13 @@ namespace Desafio_03
             Console.WriteLine("aperte ENTER para sair");
 
 
+            
+            
+
+
+
+
+
 
 
             Console.ReadKey();
@@ -130,7 +156,7 @@ namespace Desafio_03
 
 
 
-
+            ; ; ;
 
         }
     }
